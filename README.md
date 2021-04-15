@@ -13,10 +13,10 @@ $ cd minimal_improved
 
 ### Installing
 
-Once you're inside the `minimal_improved` directory, move the `minimal_improved.zsh-theme` file to your oh-my-zsh directory (usually `~/.oh-my-zsh`):
+Once you're inside the `minimal_improved` directory, move the `minimal_improved.zsh-theme` file to your $ZSH_CUSTOM directory (usually `~/.oh-my-zsh/custom`):
 
 ```
-$ mv minimal_improved.zsh-theme ~/.oh-my-zsh/themes/
+$ mv minimal_improved.zsh-theme $ZSH_CUSTOM/themes/
 ```
 
 Then go to your `~/.zshrc` file and change `ZSH_THEME` to `minimal_improved` using your favorite editor:
